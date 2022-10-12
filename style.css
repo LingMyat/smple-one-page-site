@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    font-weight: 300;
+    color: rgb(70, 69, 69);
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.8),
+    rgba(0,0,0,0.8)),
+    url(https://media.istockphoto.com/photos/grilled-chicken-meat-and-fresh-vegetable-salad-of-tomato-avocado-and-picture-id1295633127);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment:fixed ;
+}
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+/*----------------------------------header------------------------------------------*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+.fa-evernote {
+    font-size: 150%;
+    color: #FF2459;
+}
+.nav div span{
+    font-size: 150%;
+    color: #FF2459;
+}
+.menu {
+    display: block;
+}
+.nav .menu a:link,
+.nav .menu a:visited{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+    transition: 0.3s;
+}
+.menuIcon {
+    display: none;
+}
+.nav .menu a:hover {
+    border-bottom: 2px solid #Fff;
+}
+h1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 210%;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    margin-bottom: 20px;
+}
+.headertext{
+    width: 1100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.headertext a:link,
+.headertext a:visited{
+    text-decoration: none;
+    font-weight: 300;
+    display: inline-block;
+    border-radius: 200px;
+    vertical-align: center;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+.a1:link,
+.a1:visited{
+    padding: 10px 30px 5px 30px;
+    background-color: #FF2459;
+    color: #fff;
+    border: 1px solid #FF2459;
+
+}
+.a1:hover {
+    background-color: #941535;
+    border: 1px solid #941535;
+}
+.a2:link,
+.a2:visited {
+    padding: 10px 40px 5px 40px;
+    border: 1px solid #FF2459;
+    color: #FF2459;
+}
+.a2:hover {
+    color: #fff;
+    background-color: #941535;
+    border: 1px solid #941535;
+}
+/*----------------------------------sticky nav------------------------------------------*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FF2459;
+    opacity: 0.9;
+    z-index: 2;
+    padding-bottom: 5px;
+}
+.sticky .nav .menu a:link,
+.sticky .nav .menu a:visited{
+    text-decoration: none;
+    color: #FFF;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.sticky .nav {
+    padding-top: 10px;
+}
+.sticky .nav div .fa-evernote {
+    font-size: 150%;
+    color: #FFf;
+}
+.sticky .nav div span{
+    font-size: 150%;
+    color: #FFf;
+}
+.menu-icon {
+    color: #fff;
+    display: none;
+}
+
+/*----------------------------------Section1------------------------------------------*/
+h2 {
+    font-weight: 300;
+    text-align: center;
+    word-spacing: 3px;
+    margin-bottom: 35px;
+    font-size: 150%;
+}
+h2:after {
+    content: "";
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+    background-color: #FF2459;
+    height: 3px;
+    margin-top: 25px;
+}
+.section1-header{
+    padding: 0 0 60px 0;
+}
+.section1-header p {
+    font-size: 90%;
+    margin-left: 9%;
+}
+.section1-footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section1-footer div {
+    width: 265px;
+    padding: 0 10px;
+}
+.section1-footer div p {
+    font-size: 90%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 40px;
+}
+.section1-footer div h3 {
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 15px;
+    vertical-align: middle;
+}
+.section1-footer div h3 i {
+    font-size: 170%;
+    color: #FF2459;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+/*----------------------------------Section2------------------------------------------*/
+.section2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.col {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.col div {
+    width: 100%;
+    background-color: #000;
+    overflow: hidden;
+}
+.col div img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    opacity: 0.6;
+    transition: 0.2s, opacity 0.4s;
+}
+.col div img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+/*----------------------------------Section3------------------------------------------*/
+.section3 {
+    height: 108vh;
+}
+#city {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#city1 h2 {
+    font-weight: 300;
+    text-align: center;
+    word-spacing: 3px;
+    font-size: 150%;
+}
+.section3-city {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.column {
+    width: 275px;
+    padding: 3px 5px;
+}
+.column div {
+    margin-bottom: 10px;
+}
+.img {
+    overflow: hidden;
+}
+.column div img {
+    width: 100%;
+    height: 200px;
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+.column div img:hover{
+    transform: scale(1.1);
+}
+.column div h3 {
+    text-align: center;
+    background-color: #FF2459;
+    color: #fff;
+}
+
+
+/*----------------------------------Section4------------------------------------------*/
+.logincontainer {
+    width: 35%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: -2px 3px 5px rgba(0,0,0,0.3),
+                2px 3px 5px rgba(0,0,0,0.3);
+    
+}
+
+.logintext p {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 90%;
+}
+input {
+    display: block;
+    outline: none;
+}
+.inputcontainer {
+    width: 350px;
+    margin: 0 auto;
+}
+.input1,
+.input2 {
+    margin-bottom: 10px;
+    width: 300px;
+    padding: 10px 20px;
+    font-size: 80%;
+    border-radius: 5px;
+    border: 2px solid #FF2459;
+}
+.btn {
+    padding: 10px 25px 5px 25px;
+    background-color: #FF2459;
+    color: #fff;
+    border: 1px solid #FF2459;
+    border-radius: 5px;
+    width: 345px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.btn:hover {
+    background-color: #a82546;
+}
+.p2 {
+    font-size: 65%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.apple {
+    background-color: #000;
+    max-width: 330px;
+    padding: 5px;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.apple i {
+    color: #fff;
+    margin-right: 25%;
+    margin-left: 5%;
+    font-size: 25px;
+}
+.apple p {
+    display: inline-block;
+    color: #fff;
+    font-size: 80%;
+}
+.google {
+    vertical-align: middle;
+    max-width: 330px;
+    padding: 5px 5px 0 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: -2px 2px 3px rgba(0,0,0,0.3),
+                2px 2px 3px rgba(0,0,0,0.3);
+}
+.google img {
+    width: 43px;
+    height: 33px;
+    margin-right: 19%;
+    margin-left: 2%;
+}
+.google p {
+    display: inline-block;
+    font-size: 80%;
+    vertical-align: top;
+}
+.facebook {
+    background-color: #4267B2;
+    max-width: 330px;
+    padding: 5px;
+    vertical-align: middle;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.facebook i {
+    color: #fff;
+    margin-right: 20%;
+    margin-left: 5%;
+    font-size: 25px;
+}
+.facebook p {
+    display: inline-block;
+    color: #fff;
+    font-size: 80%;
+}
+/*----------------------------------Section5------------------------------------------*/
+
+/*----------------------------------Footer------------------------------------------*/
+footer {
+    width: 100%;
+    overflow: hidden;
+}
+.footer-top {
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #F4F4F4;
+}
+.footericon i {
+    width: 30px;
+    height: 20px;
+    background-color: #FF2459;
+    margin-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50%;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+} 
+.footermenu a:link,
+.footermenu a:visited {
+    text-decoration: none;
+    font-size: 80%;
+    margin-right: 30px;
+    color: #FF2459;
+    font-weight: 600;
+}
+.footer-bot {
+    width: 100%;
+    background-color: #FF2459;
+    text-align: center;
+    padding: 20px;
+}
+.footer-bot a:link,
+.footer-bot a:visited {
+    text-decoration: none;
+    font-size: 80%;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.copyright {
+    color: #fff;
+    font-size: 70%;
+    padding-top: 20px;
+    background-color: #FF2459;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 0;
+}

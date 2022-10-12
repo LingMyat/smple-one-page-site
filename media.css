@@ -1,0 +1,226 @@
+@media (max-width: 470px) {
+    header {
+      overflow: hidden;
+    }
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 0;
+  }
+    .sticky .nav div .fa-evernote {
+      font-size: 100%;
+      color: #FFf;
+      display: inline-block;
+      margin-left: 10px;
+      align-items: flex-start;
+  }
+  .sticky .nav div span{
+      font-size: 70%;
+      color: #FFf;
+  }
+  
+  .menu-icon {
+      color: #fff;
+      display: block;
+      margin-right: 20px;
+      cursor: pointer;
+      font-size: 120%;
+      transition: 2s;
+  }
+  .menuIcon {
+      display: block;
+  }
+  .menuIcon a:hover{
+      border: none;
+  }
+  .menu-icon:hover{
+      border: none;
+  }
+  .menu {
+      display: none;
+  }
+  .sticky .nav .menu a:link,
+  .sticky .nav .menu a:visited{
+      text-decoration: none;
+      color: #FFF;
+      padding-bottom: 10px;
+      height: 0;
+      font-size: 10px;
+      margin-right: 0px;
+      padding-bottom: 5px;
+  }
+    .a1:link,
+    .a1:visited {
+      padding: 10px 30px 5px 30px;
+      background-color: #ff2459;
+      color: #fff;
+      border: 1px solid #ff2459;
+      font-size: 13px;
+    }
+    .a1:hover {
+      background-color: #941535;
+      border: 1px solid #941535;
+    }
+    .a2:link,
+    .a2:visited {
+      padding: 10px 40px 5px 40px;
+      border: 1px solid #ff2459;
+      color: #ff2459;
+      font-size: 13px;
+    }
+    .a2:hover {
+      color: #fff;
+      background-color: #941535;
+      border: 1px solid #941535;
+    }
+    section {
+      display: block;
+      height: auto;
+      overflow: hidden;
+    }
+    h1 {
+      color: #fff;
+      font-weight: 300;
+      font-size: 100%;
+      letter-spacing: 1px;
+      word-spacing: 4px;
+      margin-bottom: 20px;
+    }
+    .headertext {
+      width: auto;
+      position: relative;
+      left: 60%;
+    }
+    .section1-header {
+      padding: 0 0 20px 0;
+    }
+    .section1-footer div h3 {
+      margin-bottom: 4px;
+      text-align: left;
+      font-size: 19px;
+      opacity: 0.9;
+    }
+    .section1-footer div {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    .section1-footer div p {
+      text-align: left;
+      font-size: 11px;
+      line-height: 19px;
+    }
+    .section1-footer div h3 i {
+      font-size: 160%;
+      color: #ff2459;
+      margin-right: 5px;
+      display: block;
+      margin-bottom: 10px;
+    }
+    header {
+      overflow: hidden;
+    }
+    .section2 {
+      height: auto;
+      margin-bottom: 20px;
+    }
+    .col div img {
+      width: 100%;
+      height: auto;
+      transform: scale(1.3);
+      opacity: 0.6;
+      transition: 0.2s, opacity 0.4s;
+    }
+    .col div img:hover {
+      opacity: 0.8;
+      transform: scale(1.15);
+    }
+    .col {
+      margin: 0;
+      padding: 0;
+    }
+    .section3 {
+      height: auto;
+    }
+    .section3-city {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #city1 h2 {
+      font-weight: 300;
+      text-align: center;
+      word-spacing: 3px;
+      font-size: 100%;
+      margin-bottom: 20px;
+      margin-top: 25px;
+    }
+    h2 {
+      font-size: 100%;
+      margin-bottom: 20px;
+      margin-top: 10px;
+      line-height: 23px;
+    }
+    h2:after {
+      content: "";
+      display: block;
+      width: 100px;
+      margin: 0 auto;
+      background-color: #ff2459;
+      height: 3px;
+      margin-top: 17px;
+    }
+    .section1-header p {
+      font-size: 60%;
+      margin-left: 5px;
+      text-align: center;
+    }
+    .span2 {
+        font-size: 64%;
+        text-align: right;
+    }
+    .span-2{
+        width: 100%;
+        padding: 0 4px;
+        margin-bottom: 10px;
+    }
+    .span-2 span {
+        width: 80%;
+        text-align: center;
+    }
+    
+    .logincontainer {
+      width: 100%;
+      padding: 30px 0;
+      box-shadow: -2px 3px 5px rgba(0,0,0,0.3),
+                  2px 3px 5px rgba(0,0,0,0.3);
+      
+  }
+  .apple,
+  .google,
+  .facebook {
+      margin-bottom: 13px;
+  }
+  .footer-bot {
+      width: 100%;
+      background-color: #FF2459;
+      text-align: center;
+      padding: 10px 20px;
+  }
+  .footermenu a:link,
+.footermenu a:visited {
+    text-decoration: none;
+    font-size: 65%;
+    margin-right: 30px;
+    color: #FF2459;
+    font-weight: 600;
+}
+.footer-bot a:link,
+.footer-bot a:visited {
+    text-decoration: none;
+    font-size: 66%;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+  }
+  
